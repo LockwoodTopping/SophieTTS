@@ -34,17 +34,20 @@ Go to the SophieTTS GitHub repository.
 Click on the Code button and choose Download ZIP.
 Extract the ZIP file to a folder on your computer.
 Alternatively, if you have Git installed, you can clone the repository using:
-  git clone https://github.com/LockwoodTopping/SophieTTS.git
+        git clone https://github.com/LockwoodTopping/SophieTTS.git
 
-2. Run the Script
+3. Run the Script
 To run the script, follow these steps:
 
     2.1 Navigate to the script folder (where SophieTTS.py is located) in the command prompt:
-      cd path\to\your\folder\SophieTTS
+   
+        cd path\to\your\folder\SophieTTS
 
     2.2 Run the script using Python:
       python SophieTTS.py -t "What is the weather?"
+   
         - says "Alexa, what is the weather?" over the computer speakers
+       python SophieTTS.py -t "What is the weather?"
 
 
 ----------------
