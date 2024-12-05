@@ -47,7 +47,7 @@ To run the script, follow these steps:
 
     2.2 Run the script using Python:
    
-      says "Alexa, what is the weather?" over the computer speakers
+      This will say "Alexa, what is the weather?" over the computer speakers:
    
        python SophieTTS.py -t "What is the weather?"
 
@@ -55,31 +55,31 @@ To run the script, follow these steps:
 ----------------
 --  Examples  --
 
-  says "Alexa, turn off the light."
+  This will say "Alexa, turn off the light.":
   
     python SophieTTS.py -t "Turn off the light."
 
 
 
-  uses the edge browser to access the TTS site. says "Alexa, what is the weather Today."
+  This uses the edge browser to access the TTS site and says "Alexa, what is the weather Today.":
   
     python SophieTTS.py -t "What is the Weather Today" -b edge
 
 
 
-  says "Siri, turn off the light."
+  This says "Siri, turn off the light.":
   
     python SophieTTS.py -t "Play some music" --wake-word "Siri"
 
 
 
-  lists the available TTS sites configured in the script
+  This lists the available TTS sites configured in the script:
   
     python SophieTTS.py -l
 
 
 
-  provides examples of how to use the script
+  This provides examples of how to use the script:
   
     python SophieTTS.py -h  
 
