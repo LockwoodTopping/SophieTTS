@@ -71,8 +71,13 @@ To run the script, follow these steps:
 --  Parameters  --
 
 --text or -t: The text you want to be read aloud. This is required.
+
 --speed or -spd: The speed of the TTS voice (default is 0.85). Valid values are between 0.5 and 2.0.
+
 --browser or -b: Choose the browser to use for Selenium (options: chrome, edge, or safari). The default is chrome.
+
 --site or -s: Choose the TTS site to use out of the configured site list (default is ttsmp3). Use --list-sites or -l to list all available configured TTS sites.
+
 --wake-word or -w: The wake word to prepend to the text (default is "Alexa").
+
 --list-sites or -l: List all available TTS sites.
