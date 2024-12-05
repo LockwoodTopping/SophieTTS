@@ -67,7 +67,7 @@ To run the script, follow these steps:
 
 
 
-  This says "Siri, turn off the light.":
+  This says "Siri, play some music.":
   
     python SophieTTS.py -t "Play some music" --wake-word "Siri"
 
