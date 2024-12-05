@@ -39,12 +39,12 @@ Alternatively, if you have Git installed, you can clone the repository using:
 2. Run the Script
 To run the script, follow these steps:
 
-2.1 Navigate to the script folder (where SophieTTS.py is located) in the command prompt:
-  cd path\to\your\folder\SophieTTS
+    2.1 Navigate to the script folder (where SophieTTS.py is located) in the command prompt:
+      cd path\to\your\folder\SophieTTS
 
-2.2 Run the script using Python:
-  python SophieTTS.py -t "What is the weather?"
-    - says "Alexa, what is the weather?" over the computer speakers
+    2.2 Run the script using Python:
+      python SophieTTS.py -t "What is the weather?"
+        - says "Alexa, what is the weather?" over the computer speakers
 
 
 ----------------
