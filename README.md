@@ -4,15 +4,10 @@ This is a TTS proof-of-concept for Sophie
 SophieTTS is a Python script which utilizes Selenium to access online text-to-speech solutions and read aloud the text you input. It supports controlling the speed of speech and allows you to specify the browser you'd like to use (Chrome, Edge, or Safari).
 
 Features:
-
 Read aloud text using configured websites.
-
 Customizable speech speed.
-
 Prepend a wake word (default is "Alexa").
-
 Choose the browser to run the script (Chrome, Edge, Safari).
-
 Headless browser operation for background execution.
 
 
