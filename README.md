@@ -77,6 +77,31 @@ To run the script, follow these steps:
     - provides examples of how to use the script  
 
 
+
+  ays "Alexa, turn off the light."
+  
+    - python SophieTTS.py -t "Turn off the light."
+
+
+  uses the edge browser to access the TTS site. says "Alexa, what is the weather Today."
+  
+    - python SophieTTS.py -t "What is the Weather Today" -b edge
+
+
+  says "Siri, turn off the light."
+  
+    - python SophieTTS.py -t "Play some music" --wake-word "Siri"
+
+
+  lists the available TTS sites configured in the script
+  
+    - python SophieTTS.py -l
+
+
+  provides examples of how to use the script
+  
+    - python SophieTTS.py -h  
+
 ------------------
 --  Parameters  --
 
