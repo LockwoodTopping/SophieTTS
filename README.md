@@ -80,4 +80,10 @@ To run the script, follow these steps:
 
 --wake-word or -w: The wake word to prepend to the text (default is "Alexa").
 
---list-sites or -l: List all available TTS sites.
+--list-sites or -l: List all available TTS sites.  
+
+
+------------------
+--  Known Bugs  --
+
+The script currently outputs a line to the console saying "DevTools listening on port ...". This is a bug with Selenium which currently does not have a working solution for our application.
